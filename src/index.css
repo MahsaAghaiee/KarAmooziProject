@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(./fonts/Vazir.ttf) format("truetype");
+}
+* {
+  font-family: "MyFont", sans-serif;
+}

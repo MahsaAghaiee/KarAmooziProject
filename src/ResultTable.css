@@ -1,0 +1,67 @@
+.result-table {
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 2px 6px #00000014;
+  margin-top: 20px;
+}
+
+.result-table-buttons {
+  margin-top: 20px;
+}
+#add-selected {
+  margin-right: 10px;
+}
+#add-selected:not([disabled]) {
+  background-color: #0a507b;
+  color: white;
+}
+
+.result-table-buttons Button {
+  box-shadow: 0px 2px 6px #00000014;
+  background-color: rgba(246, 246, 246, 0.88);
+  border-color: #e4e4e4;
+  border-radius: 3px;
+}
+
+.my-icon {
+  color: #0a507b;
+}
+
+th {
+  background-color: white !important;
+}
+button:not(#add-selected):not([disabled]):hover {
+  border-color: #0a507b !important;
+  color: #0a507b !important;
+}
+button:not([disabled]) {
+  border-color: #0a507b;
+}
+.icon-color:not([disabled]) {
+  color: #0a507b;
+}
+#reload {
+  margin-right: 10px;
+  width: 50px;
+  height: 32px;
+  width: 32px;
+  align-items: center;
+  align-content: center;
+}
+.result-table-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 50px;
+}
+#click-pooyeshgar {
+  color: #1890ff;
+}
+#delete-selected-result {
+  height: 32px;
+  width: 32px;
+  align-items: center;
+  align-content: center;
+}
+.result-table-tooltip {
+  font-size: 12px;
+}
