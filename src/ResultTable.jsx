@@ -108,7 +108,7 @@ function ResultTable() {
       render: (text, record) => (
         <>
           <Tooltip
-            placement="bottomLeft"
+            placement="top"
             title="مشاهده جزئیات"
             overlayClassName="result-table-tooltip"
           >
@@ -118,7 +118,7 @@ function ResultTable() {
             />
           </Tooltip>
           <Tooltip
-            placement="bottomLeft"
+            placement="top"
             title="حذف"
             overlayClassName="result-table-tooltip"
           >
@@ -221,7 +221,7 @@ function ResultTable() {
           افزودن به پایگاه دانش
         </Button>
         <Tooltip
-          placement="bottomLeft"
+          placement="top"
           title="بارگذاری مجدد"
           overlayClassName="result-table-tooltip"
         >
@@ -238,7 +238,7 @@ function ResultTable() {
         </Tooltip>
         <Tooltip>
           <Tooltip
-            placement="bottomLeft"
+            placement="top"
             title="حذف نتایج"
             overlayClassName="result-table-tooltip"
           >
